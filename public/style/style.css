@@ -6,7 +6,7 @@
 #head1 p{
     margin-top: 10%;
     font-family: 'Raleway', sans-serif;
-    font-size: 80px;
+    font-size: 75px;
 }
 #logo{
     display:inline;
@@ -79,5 +79,10 @@ h1{
     .lapimg{
         display: none;
 
+    }
+    #head1 p{
+        margin-top: 10%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 44px;
     }
 }
