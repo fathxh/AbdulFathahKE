@@ -1,0 +1,83 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap'); */
+
+
+
+#head1 p{
+    margin-top: 10%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+}
+#logo{
+    display:inline;
+    
+}
+#logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+       
+}
+p{
+    font-family: 'Domine', serif;
+    font-size: 25px;
+}
+#contact{
+    display:inline
+}
+#inner{
+    margin-top: 70px;
+}
+h1{
+    text-align: center;
+}
+#head2{
+    margin-top: 10%;
+}
+.card-text a{
+    text-decoration: none;
+    color: black;
+}
+.card-text a:hover{
+    text-decoration: none;
+    color: silver;
+}
+.card-body{
+    border-radius: 70%;
+}
+#card{
+    margin: 5px;
+    border: none;
+    box-shadow: 0px 0px 20px silver;
+    border-radius: 5%;
+}
+#img{
+    border-radius: 100%;
+    width: 70%;
+    margin-left: 18%;
+}
+.icon{
+    height: 2rem;
+    border-radius: 5px;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:600px){
+    
+    .mobileimg{
+        display: none;
+    }
+    #card{
+        width: 32%;
+    }
+}
+@media screen and (max-width:601px){
+    .lapimg{
+        display: none;
+
+    }
+}
